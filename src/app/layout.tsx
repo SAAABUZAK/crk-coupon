@@ -19,7 +19,7 @@ export default function RootLayout({
     >
       <body className="min-h-screen w-full">
         <div className="flex min-h-screen w-full justify-center bg-zinc-200 dark:bg-zinc-900">
-          <div className="flex w-full min-h-screen max-w-[430px] flex-col bg-background text-foreground">
+          <div className="flex w-full min-h-screen max-w-[540px] flex-col bg-background text-foreground">
             {children}
           </div>
         </div>
