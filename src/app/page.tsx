@@ -1,4 +1,4 @@
-import { ExampleCard } from "@/components/ExampleCard";
+import { ExampleCard } from "@components/ExampleCard";
 
 export default function Home() {
   return (
@@ -12,14 +12,14 @@ export default function Home() {
             App Router, Tailwind CSS, ESLint, and Prettier are configured. The
             card below is imported with the{" "}
             <code className="rounded bg-zinc-200 px-1.5 py-0.5 font-mono text-sm dark:bg-zinc-800">
-              @/*
+              @components/
             </code>{" "}
             alias.
           </p>
         </div>
         <ExampleCard
           title="Example component"
-          description="This file lives in src/components/ExampleCard.tsx and is loaded from src/app/page.tsx via @/components/ExampleCard."
+          description="This file lives in src/components/ExampleCard.tsx and is loaded from src/app/page.tsx via @components/ExampleCard."
         />
       </main>
     </div>

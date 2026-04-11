@@ -17,7 +17,13 @@ export default function RootLayout({
       lang="en"
       className={`${fontVariables} h-full antialiased font-sans`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-screen w-full">
+        <div className="flex min-h-screen w-full justify-center bg-zinc-200 dark:bg-zinc-900">
+          <div className="flex w-full min-h-screen max-w-[540px] flex-col bg-background text-foreground">
+            {children}
+          </div>
+        </div>
+      </body>
     </html>
   );
 }
