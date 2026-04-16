@@ -1,0 +1,43 @@
+[
+  {
+    "id": "welcome-10",
+    "title": "Welcome Discount",
+    "code": "WELCOME10",
+    "description": "Get 10% off your first order. Limited-time offer for new customers.",
+    "expirationDate": "2026-04-30",
+    "isExpired": false
+  },
+  {
+    "id": "spring-15",
+    "title": "Spring Savings",
+    "code": "SPRING15",
+    "description": "15% off select items. Great for stocking up for the season.",
+    "expirationDate": "2026-03-15",
+    "isExpired": true
+  },
+  {
+    "id": "free-ship",
+    "title": "Free Shipping",
+    "code": "FREESHIP",
+    "description": "Enjoy free standard shipping on orders over $25.",
+    "expirationDate": "2026-06-10",
+    "isExpired": false
+  },
+  {
+    "id": "flash-5",
+    "title": "Flash Deal",
+    "code": "FLASH5",
+    "description": "A quick $5 off when you reach the minimum cart total.",
+    "expirationDate": "2026-02-01",
+    "isExpired": true
+  },
+  {
+    "id": "vip-20",
+    "title": "VIP Member 20%",
+    "code": "VIP20",
+    "description": "Exclusive 20% off for VIP members. Once it’s gone, it’s gone.",
+    "expirationDate": "2026-04-20",
+    "isExpired": false
+  }
+]
+
